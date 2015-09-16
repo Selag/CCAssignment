@@ -4,6 +4,13 @@ import java.util.*;
 import LinkedLists.Solution08.ListNode;
 
 public class Solution08 {
+
+	/*
+	* 1. Maintain two pointers, one of them 2X faster than another.
+	* 2. When the two pointers meet, move one to the head.
+	* 3. Move two pointers at the same pace.
+	* 4. When they meet, the node is the head of circle.
+	*/
 	public static class ListNode {
 	    ListNode next;
 	    int val;

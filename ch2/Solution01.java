@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Solution01 {
+	/*
+	* Solution 1: Use set to detect duplicate
+	* Solution 2: without extra space, maintain two pointers
+	*/
 	public static class Node {
 	    Node next;
 	    char val;

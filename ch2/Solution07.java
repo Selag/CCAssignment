@@ -1,6 +1,11 @@
 package LinkedLists;
 
 public class Solution07 {
+	/*
+	*	1. Get the length of two lists. 
+	*	2. Align two lists.
+	*	3. Compare the nodes.
+	*/
 	public static class ListNode {
 		int val;
 	    ListNode next;

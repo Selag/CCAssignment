@@ -3,6 +3,7 @@ package ArraysAndStrings;
 import java.util.Arrays;
 
 public class Solution07 {
+    /* Follow the patterns of the index */
 	public static void rotate(int[][] matrix) {
         if(matrix == null || matrix.length==0 || matrix[0].length==0)
             return;

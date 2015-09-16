@@ -3,6 +3,13 @@ package ArraysAndStrings;
 import java.util.Arrays;
 
 public class Solution08 {
+	/* 
+	*
+	*  Two pass
+	*
+	*  Use a tag to keep track of the first column
+	*  
+	*/
 	public static void setZeroes(int[][] matrix) {
         int colTag = 1;
         for(int i = 0; i < matrix.length; i++){

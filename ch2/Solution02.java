@@ -3,6 +3,7 @@ package LinkedLists;
 import LinkedLists.Solution06.ListNode;
 
 public class Solution02 {
+	/* Maintain two pointers, move the faster one k steps ahead of the slow one */
 	public static ListNode returnKth(ListNode head, int n) {
         ListNode slow = head;
         ListNode fast = head;

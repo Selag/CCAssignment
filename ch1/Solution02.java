@@ -15,14 +15,14 @@ public class Solution02 {
 	    if (sCharArr.length != tCharArr.length) 
 	    	return false;
 	    for (int i = 0; i < sCharArr.length; i++) {
-	      if (sCharArr[i] != tCharArr[i]) 
-	    	  return false;
+            if (sCharArr[i] != tCharArr[i])
+                return false;
 	    }
 	    return true;
-	  }
-	  public static void main(String[] args) {
+    }
+    public static void main(String[] args) {
 	    System.out.println(isPermutation("abc", "abc") ? "This is a permutation" : "This is not a permutation");
 	    System.out.println(isPermutation("test", "tset") ? "This is a permutation" : "This is not a permutation");
 	    System.out.println(isPermutation("testt", "estt") ? "This is a permutation" : "This is not a permutation");
-	  }
+    }
 }
